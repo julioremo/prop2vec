@@ -1,0 +1,8 @@
+# read_files.py: 4
+gensim == 3.1.0
+
+# read_files.py: 3
+pandas == 0.22.0
+
+# download_files.py: 1
+pycurl == 7.43.0.1
