@@ -71,7 +71,7 @@ if __name__ == "__main__":
     print('building Word2vec model')
     model = KeyedVectors.load_word2vec_format(PRETRAINEDVECTORS, binary=True)
 
-    while p:
+    while True:
         p = raw_input('Enter a property: ')
         if p in property_list:
             results = similar_by_property(p)
