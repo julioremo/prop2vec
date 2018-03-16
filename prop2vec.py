@@ -72,7 +72,7 @@ if __name__ == "__main__":
     model = KeyedVectors.load_word2vec_format(PRETRAINEDVECTORS, binary=True)
 
     while True:
-        p = raw_input('Enter a property: ')
+        p = input('Enter a property: ')
         if p in property_list:
             results = similar_by_property(p)
             print('Results for '+p, *results, sep='\n')
