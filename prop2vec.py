@@ -33,7 +33,6 @@ def format_results_towords(ranked_tuples):
 
 
 def get_labels(p, n_basis=1000):
-    # "list comprehension"
     ending = '/' + p + '>'
     matching = pd.Series([ending in row for row in infoboxprops['property']])
     objs = infoboxprops[matching]['subject'].drop_duplicates()
