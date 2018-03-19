@@ -3,7 +3,7 @@ import pandas as pd
 from gensim.models import KeyedVectors
 from itertools import islice
 import re
-import random.sample
+import random
 
 INFOBOXPROPS = 'infobox_properties_en.ttl.bz2'
 LABELS = 'labels_en.ttl.bz2'
